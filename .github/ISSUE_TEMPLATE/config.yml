@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Private inquiry / 非公開のお問い合わせ
-    url: mailto:ln_church@mayim-mayim.com
+    url: https://github.com/mayim-mayim/LN_Church_Feedback#public-or-private
     about: Use the existing email contact for private inquiries, security vulnerabilities, or help without a GitHub account.
