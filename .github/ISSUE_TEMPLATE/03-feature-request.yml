@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest an improvement or new capability for LN Church. 日本語可。
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue and its attachments will be public. Include only information you are comfortable sharing publicly.
+        English and Japanese are welcome. A proposal does not need a technical implementation plan.
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like to improve?
+      description: Describe the problem or goal, who it affects, and the outcome that would help.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested approach or examples (optional)
+      description: Share an idea, example, or alternative if you have one.

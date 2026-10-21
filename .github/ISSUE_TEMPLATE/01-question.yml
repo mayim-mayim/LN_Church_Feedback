@@ -1,0 +1,23 @@
+name: Question
+description: Ask about using LN Church. 日本語での質問も歓迎します。
+title: "[Question]: "
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue and its attachments will be public. Do not include credentials, personal information, signed payment payloads, or confidential logs.
+        For a private inquiry, email [ln_church@mayim-mayim.com](mailto:ln_church@mayim-mayim.com).
+        English and Japanese are welcome. You do not need to provide your name, email address, or wallet address here.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to know or accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (optional)
+      description: Which service or page is involved? What have you already tried? Include only information you are comfortable sharing publicly.

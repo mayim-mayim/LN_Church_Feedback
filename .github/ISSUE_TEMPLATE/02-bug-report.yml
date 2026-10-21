@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a problem with LN Church, including task or reward issues. 日本語可。
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue and its attachments will be public. Remove credentials, personal information, authorization headers, signed payment payloads, and confidential details from logs or screenshots.
+        Use [ln_church@mayim-mayim.com](mailto:ln_church@mayim-mayim.com) for private inquiries or security vulnerabilities. Never post private keys or seed phrases.
+        Do not repeat a payment just to reproduce a problem. English and Japanese are welcome.
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened?
+      description: Describe the problem and the service or page affected. A sanitized error message can help.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: Describe the result you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps or actions before the problem (optional)
+      description: Describe what you already did. If you cannot reproduce the problem, say so; no additional payment or destructive action is needed.
+  - type: textarea
+    id: context
+    attributes:
+      label: Time and environment (optional)
+      description: Approximate time and timezone, browser/device, SDK version, or agent software if known. Task IDs and public transaction hashes are optional and public if included. Do not paste full request headers or signed payloads.
